@@ -7,3 +7,12 @@ There are four processes in this problem: three smoker processes and an agent pr
 Solution:
 
 This seems like a fairly easy solution. The three smoker processes will make a cigarette and smoke it. If they can't make a cigarette, then they will go to sleep. The agent process will place two items on the table, and wake up the appropriate smoker, and then go to sleep. All semaphores except lock are initialized to 0. lock is initialized to 1, and is a mutex variable.
+
+# For Ubuntu
+use these commands in terminal for compilation.
+
+# How to compile this code:
+$ gcc rw.c o rw -lpthread
+
+# how to run this code:
+$ ./rw
