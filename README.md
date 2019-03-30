@@ -12,7 +12,7 @@ This seems like a fairly easy solution. The three smoker processes will make a c
 use these commands in terminal for compilation.
 
 # How to compile this code:
-$ gcc rw.c o rw -lpthread
+$ gcc cs.c o cs -lpthread
 
 # how to run this code:
-$ ./rw
+$ ./cs
